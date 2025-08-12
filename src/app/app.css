@@ -1,0 +1,54 @@
+/* app.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #ffe9ec, #fff8f0);
+}
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.dress-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.dress-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.dress-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.logo {
+  height: 150px; /* Increase size */
+  width: auto;  /* Keeps aspect ratio */
+}
+
+
+
+
+
